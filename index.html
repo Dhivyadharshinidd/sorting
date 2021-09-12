@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>Sort in ascending and descending order</h1>
+    <h3>Ascending order :</h3>
+    <p id="ascending"></p>
+    <h3>Descending order :</h3>
+    <p id="descending"></p>
+
+    <script>
+        const cars = ['Maruti', 'Tata', 'Honda', 'Nissan', 'Ford', 'Kia', 'Mahindra', 'Hyundai', 'Toyota', 'Datsun']
+        document.getElementById("ascending").innerHTML = cars.sort();
+        document.getElementById("descending").innerHTML = cars.reverse();
+    </script>
+</body>
+
+</html>
